@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/cclss/git/projec/**)",
+      "Bash(gh api:*)",
+      "Bash(mkdir -p /Users/cclss/git/projec/bon-dashboard)",
+      "Bash(rsync -a --exclude='.git' /Users/cclss/git/projec/repo-test-1-a/ /Users/cclss/git/projec/bon-dashboard/)",
+      "Bash(gh repo:*)",
+      "Read(//Users/cclss/Library/Android/sdk/ndk/27.0.12077973/sources/third_party/**)",
+      "Bash(./gradlew bundleRelease)",
+      "Bash(ls -lh /Users/cclss/git/projec/repo-test-1-a/app/build/outputs/bundle/release/*.aab)",
+      "Bash(xargs sed:*)",
+      "Bash(cp -R /Users/cclss/git/projec/repo-test-1-a/app/src/main/java/com/rhythmtrainer/* /Users/cclss/git/projec/repo-test-1-a/app/src/main/java/coffee/vienna/baplash/)",
+      "Bash(cp -R /Users/cclss/git/projec/repo-test-1-a/app/src/test/java/com/rhythmtrainer/* /Users/cclss/git/projec/repo-test-1-a/app/src/test/java/coffee/vienna/baplash/)",
+      "Bash(./gradlew clean:*)",
+      "Bash(git -C /Users/cclss/git/projec/repo-test-1-a remote -v)",
+      "Bash(rsync -a --exclude='build/' --exclude='.gradle/' --exclude='.cxx/' --exclude='app/build/' --exclude='app/.cxx/' /Users/cclss/git/projec/repo-test-1-a/ /Users/cclss/git/projec/baplash-vienna-coffiee/)"
+    ]
+  }
+}

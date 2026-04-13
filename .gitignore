@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android
+*.iml
+.idea/
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+gen/
+out/
+
+# Native
+.cxx/
+.externalNativeBuild/
+obj/
+
+# Keystore
+*.jks
+*.keystore
+keystore.properties
+
+# Misc
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
